@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Travelix</title>
+	<title>Aloja Travels</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Travelix Project">
@@ -14,6 +14,11 @@
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	
+	<link rel="stylesheet" href="styles/aos.css">
+	<link rel="stylesheet" href="styles/tiny-slider.css">
+	
+  <link rel="stylesheet" href="styles/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -285,247 +290,289 @@
 									<img src="images/ofertas.png" alt=""><span>OFERTAS</span></div>
 								<div
 									class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start">
-									<img src="images/bus.png" alt="">LUGARES</div>
+									<img src="images/viajes.png" alt="">VIAJES</div>
 								<div
 									class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start">
-									<img src="images/departure.png" alt="">PAQUETES</div>
+									<img src="images/viajesinternacionales.png" alt="">VIAJES INTERNACIONALES</div>
 								<div
 									class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start">
-									<img src="images/island.png" alt="">HOTELES</div>
+									<img src="images/paquetes.png" alt="">PAQUETES</div>
 								<div
 									class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start">
-									<img src="images/cruise.png" alt="">ACTIVIDADES</div>
+									<img src="images/hoteles.png" alt="">HOTELES</div>
 								<div
 									class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start">
-									<img src="images/diving.png" alt="">activities</div>
+									<img src="images/actividades.png" alt="">ACTIVIDADES</div>
 							</div>
 						</div>
 
-						<!-- Search Panel -->
+						<!-- Search Panel Ofertas-->
 
 						<div class="search_panel active">
 							<form action="#" id="search_form_1"
 								class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 								<div class="search_item">
-									<div>destination</div>
+									<div>DESTINO</div>
 									<input type="text" class="destination search_input" required="required">
 								</div>
 								<div class="search_item">
-									<div>check in</div>
+									<div>FECHA IDA</div>
 									<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>check out</div>
+									<div>FECHA VUELTA</div>
 									<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>adults</div>
+									<div>ADULTOS</div>
 									<select name="adults" id="adults_1" class="dropdown_item_select search_input">
 										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<div class="search_item">
-									<div>children</div>
+									<div>NIÑOS</div>
 									<select name="children" id="children_1" class="dropdown_item_select search_input">
 										<option>0</option>
+										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<button
-									class="button search_button">search<span></span><span></span><span></span></button>
+									class="button search_button">BUSCAR<span></span><span></span><span></span></button>
 							</form>
 						</div>
 
-						<!-- Search Panel -->
+						<!-- Search Panel Viajes -->
 
 						<div class="search_panel">
 							<form action="#" id="search_form_2"
 								class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 								<div class="search_item">
-									<div>destination</div>
+									<div>DESTINO</div>
 									<input type="text" class="destination search_input" required="required">
 								</div>
 								<div class="search_item">
-									<div>check in</div>
+									<div>FECHA IDA</div>
 									<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>check out</div>
+									<div>FECHA VUELTA</div>
 									<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>adults</div>
+									<div>ADULTOS</div>
 									<select name="adults" id="adults_2" class="dropdown_item_select search_input">
 										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<div class="search_item">
-									<div>children</div>
+									<div>NIÑOS</div>
 									<select name="children" id="children_2" class="dropdown_item_select search_input">
 										<option>0</option>
+										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<button
-									class="button search_button">search<span></span><span></span><span></span></button>
+									class="button search_button">BUSCAR<span></span><span></span><span></span></button>
 							</form>
 						</div>
 
-						<!-- Search Panel -->
+						<!-- Search Panel Viajes Internacionales -->
 
 						<div class="search_panel">
 							<form action="#" id="search_form_3"
 								class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 								<div class="search_item">
-									<div>destination</div>
+									<div>DESTINO</div>
 									<input type="text" class="destination search_input" required="required">
 								</div>
 								<div class="search_item">
-									<div>check in</div>
+									<div>FECHA IDA</div>
 									<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>check out</div>
+									<div>FECHA VUELTA</div>
 									<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>adults</div>
+									<div>ADULTOS</div>
 									<select name="adults" id="adults_3" class="dropdown_item_select search_input">
 										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<div class="search_item">
-									<div>children</div>
+									<div>NIÑOS</div>
 									<select name="children" id="children_3" class="dropdown_item_select search_input">
 										<option>0</option>
+										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<button
-									class="button search_button">search<span></span><span></span><span></span></button>
+									class="button search_button">BUSCAR<span></span><span></span><span></span></button>
 							</form>
 						</div>
 
-						<!-- Search Panel -->
+						<!-- Search Panel Paquetes -->
 
 						<div class="search_panel">
 							<form action="#" id="search_form_4"
 								class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 								<div class="search_item">
-									<div>destination</div>
+									<div>DESTINOS</div>
 									<input type="text" class="destination search_input" required="required">
 								</div>
 								<div class="search_item">
-									<div>check in</div>
+									<div>FECHA IDA</div>
 									<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>check out</div>
+									<div>FECHA VUELTA</div>
 									<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>adults</div>
+									<div>ADULTOS</div>
 									<select name="adults" id="adults_4" class="dropdown_item_select search_input">
 										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<div class="search_item">
-									<div>children</div>
+									<div>NIÑOS</div>
 									<select name="children" id="children_4" class="dropdown_item_select search_input">
 										<option>0</option>
+										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<button
-									class="button search_button">search<span></span><span></span><span></span></button>
+									class="button search_button">BUSCAR<span></span><span></span><span></span></button>
 							</form>
 						</div>
 
-						<!-- Search Panel -->
+						<!-- Search Panel Hoteles-->
 
 						<div class="search_panel">
 							<form action="#" id="search_form_5"
 								class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 								<div class="search_item">
-									<div>destination</div>
+									<div>DESTINO</div>
 									<input type="text" class="destination search_input" required="required">
 								</div>
 								<div class="search_item">
-									<div>check in</div>
+									<div>FECHA IDA</div>
 									<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>check out</div>
+									<div>FECHA VUELTA</div>
 									<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>adults</div>
+									<div>ADULTOS</div>
 									<select name="adults" id="adults_5" class="dropdown_item_select search_input">
 										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<div class="search_item">
-									<div>children</div>
+									<div>NIÑOS</div>
 									<select name="children" id="children_5" class="dropdown_item_select search_input">
 										<option>0</option>
+										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<button
-									class="button search_button">search<span></span><span></span><span></span></button>
+									class="button search_button">BUSCAR<span></span><span></span><span></span></button>
 							</form>
 						</div>
 
-						<!-- Search Panel -->
+						<!-- Search Panel Actividades-->
 
 						<div class="search_panel">
 							<form action="#" id="search_form_6"
 								class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 								<div class="search_item">
-									<div>destination</div>
+									<div>DESTINOS</div>
 									<input type="text" class="destination search_input" required="required">
 								</div>
 								<div class="search_item">
-									<div>check in</div>
+									<div>FECHA IDA</div>
 									<input type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>check out</div>
+									<div>FECHA VUELTA</div>
 									<input type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item">
-									<div>adults</div>
+									<div>ADULTOS</div>
 									<select name="adults" id="adults_6" class="dropdown_item_select search_input">
 										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<div class="search_item">
-									<div>children</div>
+									<div>NIÑOS</div>
 									<select name="children" id="children_6" class="dropdown_item_select search_input">
 										<option>0</option>
+										<option>01</option>
 										<option>02</option>
 										<option>03</option>
+										<option>04</option>
+										<option>05</option>
+										<option>06</option>
 									</select>
 								</div>
 								<button
-									class="button search_button">search<span></span><span></span><span></span></button>
+									class="button search_button">BUSCAR<span></span><span></span><span></span></button>
 							</form>
 						</div>
 					</div>
@@ -539,14 +586,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<h2 class="intro_title text-center">We have the best tours</h2>
+						<h2 class="intro_title text-center">Planea tu viaje hoy mismo...</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-10 offset-lg-1">
 						<div class="intro_text text-center">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
-								Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec. </p>
+							<p>Déjate envolver por los lugares que visitaremos y las emociones que viviremos.</p>
+							<br><br>
 						</div>
 					</div>
 				</div>
@@ -557,18 +604,16 @@
 					<div class="col-lg-4 intro_col">
 						<div class="intro_item">
 							<div class="intro_item_overlay"></div>
-							<!-- Image by https://unsplash.com/@dnevozhai -->
-							<div class="intro_item_background" style="background-image:url(images/intro_1.jpg)"></div>
+							<div class="intro_item_background" style="background-image:url(images/introcusco.png)"></div>
 							<div
 								class="intro_item_content d-flex flex-column align-items-center justify-content-center">
-								<div class="intro_date">May 25th - June 01st</div>
+								<div class="intro_date">Junio 25 - Julio 01</div>
 								<div class="button intro_button">
-									<div class="button_bcg"></div><a href="#">see
-										more<span></span><span></span><span></span></a>
+									<div class="button_bcg"></div><a href="#">ver más<span></span><span></span><span></span></a>
 								</div>
 								<div class="intro_center text-center">
-									<h1>Mauritius</h1>
-									<div class="intro_price">From $1450</div>
+									<h1>Cusco</h1>
+									<div class="intro_price">desde s/ 849.9</div>
 									<div class="rating rating_4">
 										<i class="fa fa-star"></i>
 										<i class="fa fa-star"></i>
@@ -586,18 +631,16 @@
 					<div class="col-lg-4 intro_col">
 						<div class="intro_item">
 							<div class="intro_item_overlay"></div>
-							<!-- Image by https://unsplash.com/@hellolightbulb -->
-							<div class="intro_item_background" style="background-image:url(images/intro_2.jpg)"></div>
+							<div class="intro_item_background" style="background-image:url(images/introarequipa.png)"></div>
 							<div
 								class="intro_item_content d-flex flex-column align-items-center justify-content-center">
-								<div class="intro_date">May 25th - June 01st</div>
+								<div class="intro_date">Junio 25 - Julio 01</div>
 								<div class="button intro_button">
-									<div class="button_bcg"></div><a href="#">see
-										more<span></span><span></span><span></span></a>
+									<div class="button_bcg"></div><a href="#">ver más<span></span><span></span><span></span></a>
 								</div>
 								<div class="intro_center text-center">
-									<h1>Greece</h1>
-									<div class="intro_price">From $1450</div>
+									<h1>Arequipa</h1>
+									<div class="intro_price">desde s/ 849.9</div>
 									<div class="rating rating_4">
 										<i class="fa fa-star"></i>
 										<i class="fa fa-star"></i>
@@ -615,18 +658,16 @@
 					<div class="col-lg-4 intro_col">
 						<div class="intro_item">
 							<div class="intro_item_overlay"></div>
-							<!-- Image by https://unsplash.com/@willianjusten -->
-							<div class="intro_item_background" style="background-image:url(images/intro_3.jpg)"></div>
+							<div class="intro_item_background" style="background-image:url(images/introica.png)"></div>
 							<div
 								class="intro_item_content d-flex flex-column align-items-center justify-content-center">
-								<div class="intro_date">May 25th - June 01st</div>
+								<div class="intro_date">Junio 25 - Julio 01</div>
 								<div class="button intro_button">
-									<div class="button_bcg"></div><a href="#">see
-										more<span></span><span></span><span></span></a>
+									<div class="button_bcg"></div><a href="#">ver más<span></span><span></span><span></span></a>
 								</div>
 								<div class="intro_center text-center">
-									<h1>Scotland</h1>
-									<div class="intro_price">From $1450</div>
+									<h1>Ica</h1>
+									<div class="intro_price">desde s/ 849.9</div>
 									<div class="rating rating_4">
 										<i class="fa fa-star"></i>
 										<i class="fa fa-star"></i>
@@ -646,21 +687,18 @@
 		<!-- CTA -->
 
 		<div class="cta">
-			<!-- Image by https://unsplash.com/@thanni -->
 			<div class="cta_background" style="background-image:url(images/cta.jpg)"></div>
-
 			<div class="container">
 				<div class="row">
 					<div class="col">
 
 						<!-- CTA Slider -->
-
 						<div class="cta_slider_container">
 							<div class="owl-carousel owl-theme cta_slider">
 
 								<!-- CTA Slider Item -->
 								<div class="owl-item cta_item text-center">
-									<div class="cta_title">maldives deluxe package</div>
+									<div class="cta_title">Tours Semana Santa</div>
 									<div class="rating_r rating_r_4">
 										<i></i>
 										<i></i>
@@ -767,7 +805,125 @@
 			</div>
 
 		</div>
-
+		<!-- Prueba -->
+		<div class="section section-3" data-aos="fade-up" data-aos-delay="100">
+			<div class="container">
+				<div class="row align-items-center justify-content-between  mb-5">
+					<div class="col-lg-5" data-aos="fade-up">
+						<h2 class="heading mb-3">Discover Hundred of Travel Destinations</h2>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					</div>		
+					<div class="col-lg-5 text-md-end" data-aos="fade-up" data-aos-delay="100">
+						<div id="destination-controls">
+							<span class="prev me-3" data-controls="prev">
+								<span class="icon-chevron-left"></span>
+	
+							</span>
+							<span class="next" data-controls="next">
+								<span class="icon-chevron-right"></span>
+	
+							</span>
+						</div>
+					</div>
+				</div>	
+	
+			</div>		
+	
+			<div class="destination-slider-wrap">
+				<div class="destination-slider">
+					<div class="destination">
+						<div class="thumb">
+							<img src="images/img-1.jpg" alt="Image" class="img-fluid">
+							<div class="price">$430</div>
+						</div>
+						<div class="mt-4">
+							<h3><a href="#">Paradise Beach, Palawan Island</a></h3>
+							<span class="meta">Maldives, Repbulic Maldives</span>
+						</div>
+					</div>
+	
+					<div class="destination">
+						<div class="thumb">
+							<img src="images/img-2.jpg" alt="Image" class="img-fluid">
+							<div class="price">$560</div>
+						</div>
+						<div class="mt-4">
+							<h3><a href="#">Paradise Beach, Palawan Island</a></h3>
+							<span class="meta">Maldives, Repbulic Maldives</span>
+						</div>
+					</div>
+	
+					<div class="destination">
+						<div class="thumb">
+							<img src="images/img-3.jpg" alt="Image" class="img-fluid">
+							<div class="price">$490</div>
+						</div>
+						<div class="mt-4">
+							<h3><a href="#">Paradise Beach, Palawan Island</a></h3>
+							<span class="meta">Maldives, Repbulic Maldives</span>
+						</div>
+					</div>
+	
+					<div class="destination">
+						<div class="thumb">
+							<img src="images/img-4.jpg" alt="Image" class="img-fluid">
+							<div class="price">$490</div>
+						</div>
+						<div class="mt-4">
+							<h3><a href="#">Paradise Beach, Palawan Island</a></h3>
+							<span class="meta">Maldives, Repbulic Maldives</span>
+						</div>
+					</div>
+	
+	
+					<div class="destination">
+						<div class="thumb">
+							<img src="images/img-5.jpg" alt="Image" class="img-fluid">
+							<div class="price">$430</div>
+						</div>
+						<div class="mt-4">
+							<h3><a href="#">Paradise Beach, Palawan Island</a></h3>
+							<span class="meta">Maldives, Repbulic Maldives</span>
+						</div>
+					</div>
+	
+					<div class="destination">
+						<div class="thumb">
+							<img src="images/img-6.jpg" alt="Image" class="img-fluid">
+							<div class="price">$560</div>
+						</div>
+						<div class="mt-4">
+							<h3><a href="#">Paradise Beach, Palawan Island</a></h3>
+							<span class="meta">Maldives, Repbulic Maldives</span>
+						</div>
+					</div>
+	
+					<div class="destination">
+						<div class="thumb">
+							<img src="images/img-7.jpg" alt="Image" class="img-fluid">
+							<div class="price">$490</div>
+						</div>
+						<div class="mt-4">
+							<h3><a href="#">Paradise Beach, Palawan Island</a></h3>
+							<span class="meta">Maldives, Repbulic Maldives</span>
+						</div>
+					</div>
+	
+					<div class="destination">
+						<div class="thumb">
+							<img src="images/img-4.jpg" alt="Image" class="img-fluid">
+							<div class="price">$490</div>
+						</div>
+						<div class="mt-4">
+							<h3><a href="#">Paradise Beach, Palawan Island</a></h3>
+							<span class="meta">Maldives, Repbulic Maldives</span>
+						</div>
+					</div>
+	
+				</div>
+			</div>
+	
+		</div>
 		<!-- Offers -->
 
 		<div class="offers">
@@ -1244,6 +1400,24 @@
 				</div>
 			</div>
 		</div>
+		
+		<!-- EMPRESAS -->
+		<section id="clients" class="clients">
+			<div class="container" data-aos="zoom-out">
+			  <div class="clients-slider swiper">
+				<div class="swiper-wrapper align-items-center">
+				  <div class="swiper-slide"><img src="images/client-1.png" class="img-fluid" alt=""></div>
+				  <div class="swiper-slide"><img src="images/client-2.png" class="img-fluid" alt=""></div>
+				  <div class="swiper-slide"><img src="images/client-3.png" class="img-fluid" alt=""></div>
+				  <div class="swiper-slide"><img src="images/client-4.png" class="img-fluid" alt=""></div>
+				  <div class="swiper-slide"><img src="images/client-5.png" class="img-fluid" alt=""></div>
+				  <div class="swiper-slide"><img src="images/client-6.png" class="img-fluid" alt=""></div>
+				  <div class="swiper-slide"><img src="images/client-7.png" class="img-fluid" alt=""></div>
+				  <div class="swiper-slide"><img src="images/client-8.png" class="img-fluid" alt=""></div>
+				</div>
+			  </div>
+			</div>
+		</section>
 
 		<div class="contact">
 			<div class="contact_background" style="background-image:url(images/contact.png)"></div>
@@ -1454,6 +1628,11 @@
 	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 	<script src="plugins/easing/easing.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/glightbox.min.js"></script>
+	<script src="js/rellax.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
 
 </body>
 
